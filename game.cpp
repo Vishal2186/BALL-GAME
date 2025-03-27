@@ -47,12 +47,12 @@ void logic()
     {
         ball1.speed_Y *= -1;
     }
-    if(ball1.X + ball1.radius >= screen_width)
+    if(ball1.X + ball1.radius >= screen_width -  paddle2.width / 3)
     {
         ball1.speed_X *= -1;
         score_CPU++;
     }
-    if(ball1.X - ball1.radius <= 0)
+    if(ball1.X - ball1.radius <= 0 + paddle1.width / 3)
     {
         ball1.speed_X *= -1;
         score_player++;
