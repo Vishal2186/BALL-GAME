@@ -33,3 +33,5 @@ brew install gcc
 cd "/path/to/your/project/" && g++ main.cpp -o main -std=c++11 -lraylib && "/path/to/the/output/file"main
 ```
 ##
+
+<!-- cd "/Users/vishalmeena/Desktop/codes/c++/BALL GAME/" && g++ main.cpp -o main -std=c++11 -lraylib && "/Users/vishalmeena/Desktop/codes/c++/BALL GAME/"main -->
